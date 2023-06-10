@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+body {
+  background-color: #002c3a;
+}
+
+.navbar-brand {
+  font-size: 24px;
+
+  color: #ccf3ff;
+  font-weight: 500;
+  font-family: "IBM Plex Mono", sans-serif;
+
+  letter-spacing: 1px;
+  animation: pulse 2s infinite;
+  padding-bottom: 40px;
+}
+
+h2 {
+  color: #ccf3ff;
+  font-family: "IBM Plex Serif", sans-serif;
+  margin-left: 5px;
+}
+.nav-item a {
+  color: #ccf3ff;
+  font-weight: 50px;
+  margin: auto;
+  font-family: "IBM Plex Mono", sans-serif;
+  letter-spacing: 1px;
+  padding-bottom: 40px;
+}
+
+#slideshow {
+  position: relative;
+  width: 80%;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.slide {
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  left: 80px;
+  width: 70%;
+  height: 80%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.slide img {
+  width: auto;
+  height: auto;
+}
+.slide p {
+  position: absolute;
+  text-shadow: 4px 2px rgb(51, 50, 50);
+  color: #cc7a2c;
+  font-weight: bolder;
+  font-family: "IBM Plex Mono", sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50, -50%);
+  font-size: 50px;
+  text-align: center;
+}
+.slide.active {
+  opacity: 2;
+}
+.title {
+  border-top: 1px solid gray;
+  justify-content: center;
+  align-items: center;
+}
+.title h3 {
+  color: #ccf3ff;
+  font-size: 50px;
+  font-family: "IBM Plex Serif", sans-serif;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.cards {
+  text-align: center;
+
+  margin-top: 40px;
+}
+.card {
+  margin-top: 20px;
+  background-color: #143d4b;
+  margin-top: 20px;
+  border: 0;
+  box-shadow: 11px 7px 16px #1f1e1e;
+  color: #ccf3ff;
+  font-family: "IBM Plex Mono", sans-serif;
+  transition: ease-in-out;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 40px;
+}
+.card:hover {
+  transform: scale(1.5);
+}
+h1,
+p {
+  color: #ccf3ff;
+
+  margin-top: 40px;
+  font-family: "IBM Plex Mono", sans-serif;
+}
+#contact {
+  text-align: center;
+  background-color: #143d4b;
+  box-shadow: 11px 7px 16px #1f1e1e;
+}
+#contact h2 {
+  font-family: "IBM Plex Serif", sans-serif;
+  padding-top: 20px;
+  align-items: center;
+  color: #ccf3ff;
+}
+.bi {
+  font: size 40px;
+}
+.contact-icons-container {
+  display: flex;
+  justify-content: space-between;
+}
